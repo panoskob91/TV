@@ -14,7 +14,6 @@
 		03603666202886AB00E0A578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03603664202886AB00E0A578 /* LaunchScreen.storyboard */; };
 		0360366E2028894F00E0A578 /* TVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360366D2028894F00E0A578 /* TVShowCell.swift */; };
 		0360367020289E7300E0A578 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360366F20289E7300E0A578 /* Extensions.swift */; };
-		036036732028AD7D00E0A578 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036036722028AD7D00E0A578 /* Helpers.swift */; };
 		0360367B2029999000E0A578 /* Ananda Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036036792029999000E0A578 /* Ananda Personal Use.ttf */; };
 		0360367C2029999000E0A578 /* Ananda Black Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360367A2029999000E0A578 /* Ananda Black Personal Use.ttf */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		03603667202886AB00E0A578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0360366D2028894F00E0A578 /* TVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCell.swift; sourceTree = "<group>"; };
 		0360366F20289E7300E0A578 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		036036722028AD7D00E0A578 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		036036792029999000E0A578 /* Ananda Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ananda Personal Use.ttf"; path = "billy-argel_ananda/Ananda Personal Use.ttf"; sourceTree = SOURCE_ROOT; };
 		0360367A2029999000E0A578 /* Ananda Black Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ananda Black Personal Use.ttf"; path = "billy-argel_ananda/Ananda Black Personal Use.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				036036782029996600E0A578 /* Fonts */,
-				036036712028AD1600E0A578 /* Helpers */,
 				0360365B202886AB00E0A578 /* AppDelegate.swift */,
 				0360365D202886AB00E0A578 /* ViewController.swift */,
 				0360365F202886AB00E0A578 /* Main.storyboard */,
@@ -76,14 +73,6 @@
 				0360366F20289E7300E0A578 /* Extensions.swift */,
 			);
 			path = TV;
-			sourceTree = "<group>";
-		};
-		036036712028AD1600E0A578 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				036036722028AD7D00E0A578 /* Helpers.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		036036782029996600E0A578 /* Fonts */ = {
@@ -172,7 +161,6 @@
 				0360365E202886AB00E0A578 /* ViewController.swift in Sources */,
 				0360365C202886AB00E0A578 /* AppDelegate.swift in Sources */,
 				0360366E2028894F00E0A578 /* TVShowCell.swift in Sources */,
-				036036732028AD7D00E0A578 /* Helpers.swift in Sources */,
 				0360367020289E7300E0A578 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

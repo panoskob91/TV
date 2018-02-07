@@ -16,6 +16,7 @@
 		0360367020289E7300E0A578 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360366F20289E7300E0A578 /* Extensions.swift */; };
 		0360367B2029999000E0A578 /* Ananda Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036036792029999000E0A578 /* Ananda Personal Use.ttf */; };
 		0360367C2029999000E0A578 /* Ananda Black Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0360367A2029999000E0A578 /* Ananda Black Personal Use.ttf */; };
+		03FD601F202AEC92003E6C85 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD601E202AEC92003E6C85 /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0360366F20289E7300E0A578 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		036036792029999000E0A578 /* Ananda Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ananda Personal Use.ttf"; path = "billy-argel_ananda/Ananda Personal Use.ttf"; sourceTree = SOURCE_ROOT; };
 		0360367A2029999000E0A578 /* Ananda Black Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ananda Black Personal Use.ttf"; path = "billy-argel_ananda/Ananda Black Personal Use.ttf"; sourceTree = SOURCE_ROOT; };
+		03FD601E202AEC92003E6C85 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		0360365A202886AB00E0A578 /* TV */ = {
 			isa = PBXGroup;
 			children = (
+				03FD6020202AEE88003E6C85 /* Show */,
 				036036782029996600E0A578 /* Fonts */,
 				0360365B202886AB00E0A578 /* AppDelegate.swift */,
 				0360365D202886AB00E0A578 /* ViewController.swift */,
@@ -82,6 +85,14 @@
 				036036792029999000E0A578 /* Ananda Personal Use.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		03FD6020202AEE88003E6C85 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				03FD601E202AEC92003E6C85 /* Show.swift */,
+			);
+			path = Show;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				0360365E202886AB00E0A578 /* ViewController.swift in Sources */,
 				0360365C202886AB00E0A578 /* AppDelegate.swift in Sources */,
 				0360366E2028894F00E0A578 /* TVShowCell.swift in Sources */,
+				03FD601F202AEC92003E6C85 /* Show.swift in Sources */,
 				0360367020289E7300E0A578 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

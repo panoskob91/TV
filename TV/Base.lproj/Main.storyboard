@@ -50,6 +50,9 @@
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kGz-Nm-3Tn">
                                                     <rect key="frame" x="23" y="19" width="94" height="96"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="96" id="KUp-ed-JmO"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -62,7 +65,6 @@
                                                 <constraint firstItem="1Y4-MA-Rit" firstAttribute="top" secondItem="NUU-1q-p5W" secondAttribute="bottom" constant="8" id="LMb-WN-Rs6"/>
                                                 <constraint firstItem="ht3-PD-DMn" firstAttribute="leading" secondItem="kGz-Nm-3Tn" secondAttribute="trailing" constant="8" id="OWS-OQ-cWT"/>
                                                 <constraint firstItem="NUU-1q-p5W" firstAttribute="top" secondItem="ht3-PD-DMn" secondAttribute="bottom" constant="8" id="ShM-v8-K1u"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="kGz-Nm-3Tn" secondAttribute="bottom" constant="8" id="XAI-pr-3kk"/>
                                                 <constraint firstItem="1Y4-MA-Rit" firstAttribute="leading" secondItem="kGz-Nm-3Tn" secondAttribute="trailing" constant="8" id="aa6-xC-Za4"/>
                                                 <constraint firstItem="kGz-Nm-3Tn" firstAttribute="top" secondItem="jh1-ri-e0O" secondAttribute="topMargin" constant="8" id="faV-Jd-1g8"/>
                                                 <constraint firstAttribute="bottom" secondItem="1Y4-MA-Rit" secondAttribute="bottom" constant="32" id="g34-bu-Eq9"/>

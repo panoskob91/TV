@@ -14,9 +14,11 @@ class TVShowCell: UITableViewCell {
     @IBOutlet var averageLabel: UILabel!
     @IBOutlet var summaryLabel: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        averageLabel.font = UIFont(name: "Ananda Personal Use.ttf", size: 17)
+        summaryLabel.font = UIFont(name: "Ananda Personal Use.ttf", size: 17)
         
     }
 
